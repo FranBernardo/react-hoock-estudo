@@ -17,15 +17,7 @@ const UseRef = (props) => {
     }
 
 
-    useEffect(function(){
-        count.current = count.current + 1 
-        count.current.focus()
-    }, [valor1])
-
-    useEffect(function(){
-        count.current = count.current + 1 
-        count.current.focus()
-    }, [valor2])
+   
     
     return (
         <div className="UseRef">
